@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     fontSize: 16,
     lineHeight: 16,
+    borderBottomColor: 'transparent',
     ...Platform.select({
       web: {
         paddingTop: 6,
@@ -130,7 +131,6 @@ export default class Composer extends React.Component<ComposerProps> {
         autoFocus={this.props.textInputAutoFocus}
         value={this.props.text}
         enablesReturnKeyAutomatically
-        underlineColorAndroid='transparent'
         keyboardAppearance={this.props.keyboardAppearance}
         {...this.props.textInputProps}
       />

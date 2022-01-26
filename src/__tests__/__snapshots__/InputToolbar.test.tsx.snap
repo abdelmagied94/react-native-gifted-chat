@@ -99,6 +99,7 @@ exports[`should render <InputToolbar /> and compare with snapshot 1`] = `
       style={
         Array [
           Object {
+            "borderBottomColor": "transparent",
             "flex": 1,
             "fontSize": 16,
             "lineHeight": 16,
@@ -113,7 +114,6 @@ exports[`should render <InputToolbar /> and compare with snapshot 1`] = `
         ]
       }
       testID="Type a message..."
-      underlineColorAndroid="transparent"
       value=""
     />
     <View />
